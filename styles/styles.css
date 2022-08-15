@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+  
+  background-color: hsl(212, 45%, 89%);
+}
+
+img {
+  width: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  padding: 15px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: hsl(0, 0%, 100%);
+  -webkit-box-shadow: 3px 6px 16px -1px rgba(0, 0, 0, 0.82);
+  box-shadow: 3px 6px 16px -1px rgba(0, 0, 0, 0.82);
+}
+
+.text-center {
+  text-align: center;
+  
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+}
+
+p {
+   margin-top: -5px; 
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+/* Responsive mobile */
+
+@media (max-width: 375px) { 
+    img {
+        width: 99%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 15px 15px 15px 15px;
+      }
+
+      .card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+        padding: 15px;
+       
+      }
+ }
